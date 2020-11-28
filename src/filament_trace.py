@@ -116,5 +116,6 @@ if __name__ == "__main__":
     results = pool.map(process_file, [file for file in file_library])
 
     pool.close()
+    pool.join()
 
     exit(100)
