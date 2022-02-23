@@ -24,5 +24,5 @@ for file in coordList:
   filePath = os.path.dirname(file)
   newFileName = fileName[22:]
   newFile = filePath + '/' newFileName
-  print(newFile)
+  print('mv ' + file + ' ' + newFile)
   shutil.move(file, newFile)
