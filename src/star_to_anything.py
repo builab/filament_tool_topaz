@@ -1,5 +1,5 @@
 from utils.star_parser import star3_to_topaz
-import os, shutil
+import os, shutil, glob
 
 pixelSize = 2.74 # Important
 boxSize = 256 # Not so important
