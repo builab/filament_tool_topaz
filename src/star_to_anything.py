@@ -17,6 +17,8 @@ parser.parse()
 
 coordList = glob.glob(outputDir)
 
+print(coordList)
+
 for file in coordList:
   fileName = os.path.basename(file)
   filePath = os.path.dirname(file)
