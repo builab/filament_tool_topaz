@@ -20,7 +20,7 @@ coordList = glob.glob(outputDir)
 for file in coordList:
   fileName = os.path.basename(file)
   filePath = os.path.dirname(file)
-  newFile = fileName[23,:]
+  newFileName = fileName[23,:]
   newFile = filePath + newFileName
   print(newFile)
   #shutil.move(file, newFile)
