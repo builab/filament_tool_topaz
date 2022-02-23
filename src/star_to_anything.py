@@ -1,8 +1,8 @@
 from utils.star_parser import star3_to_topaz
 import os, shutil, glob
 
-pixelSize = 2.74 # Important
-boxSize = 256 # Not so important
+pixelSize = 1.37 # Important
+boxSize = 512 # Not so important
 outputDir = "box_g2"
 
 # Important to check column 3,4,6,7 of the star file 
