@@ -15,7 +15,7 @@ parser = star3_to_topaz("group2_P13_J38_bin2.star", outputDir, [3,4], [3,4,6,7],
 
 parser.parse()
 
-coordList = glob.glob(outputDir)
+coordList = glob.glob(outputDir + '/*.txt')
 
 print(coordList)
 
