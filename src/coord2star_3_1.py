@@ -61,13 +61,13 @@ if __name__=='__main__':
 			x = df2['rlnCoordinateX']
 			y = df2['rlnCoordinateY']
 			psi = calculatepsi(x, y)
-			df2['rlnClassNumber'] = np.ones(len(df2), dtype=np.int8)
-			df2['rlnAutopickFigureOfMerit'] = np.zeros(len(df2))
+			#df2['rlnClassNumber'] = np.ones(len(df2), dtype=np.int8)
+			#df2['rlnAutopickFigureOfMerit'] = np.zeros(len(df2))
 			df2['rlnAngleTiltPrior'] = np.ones(len(df2))*90
 			df2['rlnAnglePsiPrior'] = psi
 			df2['rlnHelicalTrackLengthAngst'] = np.arange(len(df2))*riseAngstrom
 			df2['rlnAnglePsiFlipRatio'] = np.ones(len(df2))*0.5
-			df2['rlnAngleRotFlipRatio'] = np.ones(len(df2))*0.5
+			#df2['rlnAngleRotFlipRatio'] = np.ones(len(df2))*0.5
 			#print(df2)
 			if helicalId == 1:
 				df_out = df2.copy()
