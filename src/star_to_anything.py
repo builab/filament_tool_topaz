@@ -1,3 +1,5 @@
+# Script to convert the single star file to txt file
+
 from utils.star_parser import star3_to_topaz
 import os, shutil, glob
 
