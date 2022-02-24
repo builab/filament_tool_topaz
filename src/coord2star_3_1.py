@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # Convert from plain coordinate to relion coordinate
+# Update to be compatible with Relion 3.1 particles extracted from box file.
 
 import os, sys, argparse, os.path, glob, math
 import numpy as np
